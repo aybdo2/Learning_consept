@@ -53,13 +53,33 @@ print(ay)
 #print(name[slice(2,9)]) 
 
 
-#part 7 (if statement if ,elif , else) & logical statement (and, or , not)
-age = int(input('how old are u:'))
-if age == 100:
-    print('your 100 older')
-elif not(age >= 18):
-    print('ur a teenager')
-elif not (age < 18):
-    print("ur a child")
-else:
-    print('error:put a number')
+##part 7 (if statement if ,elif , else) & logical statement (and, or , not#reverse the role)
+#age = int(input('how old are u:'))
+#if age == 100:
+#    print('your 100 older')
+#elif not(age >= 18):
+#    print('ur a teenager')
+#elif not (age < 18):
+#    print("ur a child")
+#else:
+#    print('error:put a number')
+
+#part 8 (while loops )
+#      '''methode 1'''
+#name = None
+#while not name:
+#       name = input('ur name')
+#
+#print('Hello '+str(name)+'!')  
+#  '''mehod 2'''  
+#name = ''
+#
+#while name == '':
+#      name = input('ur name')
+#print('Hello '+name+'!')
+#
+#        '''methode 3'''
+i=1
+while not i == 2:
+ print("I'm stuck user please help")
+
