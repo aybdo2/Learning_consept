@@ -7,7 +7,7 @@
 
 #parte 2
 '''
-name,dude,bro= 22,"sss",True
+name,dude,bro,ana= 22,"sss",True,2.2
 ay=do=hi=10
 print(type(name))
 print(type(dude))
@@ -25,3 +25,41 @@ print(ay)
 #print(name.count ("o"))
 #print(name.replace( "o" , "a"))
 #print(name*3)
+
+#part 4(input for the user command)
+#name = input('how hard is life of scal of 10:\n')
+#age = int(input('how old are u:\n'))
+#print('hello my name is pyton my life is', name , 'age is:', age, ',')
+
+#part 5(import math)
+#import math
+#pi = 3.14
+#x = 1
+#y = 2
+#z = 3
+#
+#print(round(pi))#remove the numbers after the symbole
+#print(math.ceil(pi))#up the float number if it's 3.5 it will be 4
+#print(math.floor(pi))#down the float number if it's 3.5 it will be 3
+#print(abs(pi))#how he need to achieve 0 if it's negative he will be positive
+#print(pow(pi,2))#pi*pi
+#print(max(x, y, z)) , print(min(x,y,z))
+
+
+#part 6 (slicing in python)
+#indexing[start:stop:step] and slicing(biginng,ending)
+#name = 'my names2 is ayoub'
+#print(name[:9])
+#print(name[slice(2,9)]) 
+
+
+#part 7 (if statement if ,elif , else) & logical statement (and, or , not)
+age = int(input('how old are u:'))
+if age == 100:
+    print('your 100 older')
+elif not(age >= 18):
+    print('ur a teenager')
+elif not (age < 18):
+    print("ur a child")
+else:
+    print('error:put a number')
